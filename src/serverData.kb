@@ -1,0 +1,19 @@
+Name 				MetaProperty 		MakesUnique
+ShortDescription	MetaProperty 		MakesUnique
+LongDescription		MetaProperty 		MakesUnique
+PictureFilename		MetaProperty 		MakesUnique
+UnsheathedWeapon	MetaProperty 		MakesUnique
+Health				MetaProperty 		MakesUnique
+AttackScore			MetaProperty 		MakesUnique
+DefenseScore		MetaProperty 		MakesUnique
+Speed				MetaProperty 		MakesUnique
+LastActionTime		MetaProperty 		MakesUnique
+UnsheathedWeapon	MetaProperty 		MakesUnique
+
+HasInventory 		MetaProperty 		MakesList
+HasSkill	 		MetaProperty 		MakesList
+
+IsCategory	 		MetaProperty 		MakesSet
+HasTag		 		MetaProperty 		MakesSet
+
+

@@ -1,0 +1,38 @@
+TRANSLATE ALL THESE DOCUMENTS IN ENGLISH!
+
+
+* Mettre au point une jauge d'action qui se remplit avec le temps (une action = 2 secondes ?)
+OK	1°) le serveur ignore une action prématurée
+	2°) le serveur queue les actions prématurées
+	SERVER
+OK	- propriété lastActionTime par user
+OK	- test avant chaque action si bastonMode et lastActionTime suffisamment loin
+	(2) actionQueue par user
+	(2) idle serveur qui execute les actions en queue arrivées à execution
+	CLIENT
+	- une jauge par perso si mode baston
+	(2) moyen de visualiser la queue (limitée à une action déjà)
+* Trouver un moyen de rendre visuellement une attaque qui permette : 
+		- de voir qui a donné le coup (anim du perso ?)
+OK		- de voir qui a reçu le coup
+OK		- de voir combien de points de vue ont été perdus
+* Utiliser une seule grande surface pour le background
+OK . Implémenter un système de chat
+* Indiquer avec une icone flottante l'action que va provoquer un click : une main pour prendre, l'arme pour une attaque, une flèche/pied pour une sortie,etc..
+* Implémenter une classe "bouton" qui permette de faire un peu d'IHM plus facilement et qui remplace le bouton de dégaine
+* SERVEUR : Quand une meme personne se deconnecte et reconnecte, sa userconnection n'est pas effacee de connectionList (mais surement de connectionDict). Corriger ça.
+* SERVEUR : le code de toutes les actions est pas mal redondant, faire quelque chose.
+* créer un client "MJ" : ajout de creatures, d'objets, voire de pieces (en mode texte ?)
+* SERVEUR : lui permettre de quitter proprement (via la console MJ ?)
+* Donner un sens à l'inventaire et à l'équipement
+* Faire un vrai système de combat utilisant les caracs du perso
+* Essayer à deux de faire planter le systeme
+* Visualiser l'état des autres persos : deconnecté ou barre d'action.
+* Trouver un meilleur nom
+* Revoir le protocole de description des objets
+
+OK . Remettre "damage" du coté serveur comme un message normal afin qu'on puisse deco et reco sans planter
+OK . Z level dans objList pour les sprites et les textes
+
+* Améliorer le système de layout : serrer les items pour que tout rentre dans la fenêtre, serrer les icones d'inventaires, etc...	
+* Changer le graph du joueur quand mort

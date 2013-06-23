@@ -1,0 +1,17 @@
+server.py et clientSDL.py sont les deux fichiers qui fonctionnent.
+clientTXT.py est une plateforme de test en mode texte. (3/08/2009 : qui ne marche plus)
+
+18/07/2009
+En fait, clientAUI.py subit des plantages à répétition que j'attribue soit à wx, soit à wx.aui. Peut être qu'ils s'enmêle les pinceaux avec mes threads. Pour avoir une vraie interface de test, je me lace dans clientTXT.py, et je ferai peut être un clientGL.py plus tard.
+
+22/07/2009
+Finalement je suis bien content de ce que j'obtiens avec clientSDL.py et j'en fais le client principal. clientTXT.py a été opérationnel incroyablement rapidement. Décidément, les belles interfaces graphiques, c'est pas mon truc. Tant pis, le chat sera pénible à implémenter, mais là on commence à avoir du graphisme et un mode "y a qu'à cliquer".
+
+03/09/2009
+Ca prend forme. On peut changer de pièce, prendre poser/des objets, il y a un systeme de placement à l'interieur des pieces et on peut degainer son arme (sans grand effet pour l'instant). Je m'attèle au combat.
+
+08/09/2009
+Ca prend tellement forme, qu'il faut que je change des choses fondamentales comme le protocole d'échange réseau et que je réécrive en grande partie le client. Taggé la version 0.1. Et je tranche...
+
+06/09/2009
+Bon ben je me suis prouvé que c'était facile à faire un client/serveur où on fight des monstres et on recupere des objets. J'abandonne ce truc et je commence MogIv

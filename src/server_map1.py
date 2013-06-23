@@ -1,0 +1,51 @@
+# -*- coding: utf-8 -*-
+
+def init_map():
+	r=addRoom("salle du trône","Dirt_Block.png")
+	addRoom("galerie de chasse", "Dirt_Block.png")
+	addRoom("escalier majestueux", "Dirt_Block.png")
+	addRoom("salle à manger", "Dirt_Block.png")
+	addRoom("cuisine", "Dirt_Block.png")
+	addRoom("salle d'arme", "Dirt_Block.png")
+	addRoom("cave", "Dirt_Block.png")
+	addRoom("salle du trésor", "Dirt_Block.png")
+
+	addExit("salle du trône", "galerie de chasse", "porte imposante à double battants","S")
+	addExit("galerie de chasse", "salle du trône", "porte imposante à double battants","N")
+	addExit("escalier majestueux", "galerie de chasse", "accés supérieur","N")
+	addExit("escalier majestueux", "cave", "escalier desendant en colimaçon","E")
+	addExit("cave", "escalier majestueux", "escalier montant en colimaçon","W")
+	addExit("cave", "salle du trésor", "","E", hidden=True)
+	addExit("salle du trésor", "cave","","W", hidden=True)
+	addExit("cave", "escalier majestueux", "escalier montant en colimaçon","W")
+	addExit("galerie de chasse", "escalier majestueux", "bout de la galerie","S")
+	addExit("salle du trône", "salle d'arme", "petite porte à droite du trône","E")
+	addExit("salle d'arme", "salle du trône", "petite porte","W")
+	addExit("escalier majestueux", "salle à manger", "accés inferieur","W")
+	addExit("salle à manger", "escalier majestueux", "porte principale","E")
+	addExit("salle à manger", "cuisine", "porte du fond","W")
+	addExit("cuisine","salle à manger", "porte","E")
+
+	"""addItem("vin blanc","vin_blanc.png","cuisine")
+	addItem("poisson","poisson.png","cuisine")
+	addItem("viande","viande.png","cuisine")"""
+	addItem("statue (moche)","statue.png","escalier majestueux", True)
+	addItem("mannequin d'entraînement","mannequin.png","salle d'arme",True)
+	addItem("pièces","pieces.png","salle du trésor")
+	"""addItem("arc","arc.png","salle d'arme")
+	addItem("hache","hache.png","salle d'arme")
+	addItem("epee","epee.png","salle d'arme")
+	addItem("masse","masse.png","salle d'arme")"""
+	addWeapon("arc","arc.png", "salle d'arme"	,[10,10,1.0,True])
+	addWeapon("épée","epee.png", "salle d'arme",[30,15,1.0,False])
+	addWeapon("hache","hache.png", "salle d'arme",[20,20,1.2,False])
+	addWeapon("masse","masse.png", "salle d'arme",[0,50,1.5,False])
+		
+	addMonster("araignee","../img/araignee.png","cave", [50, 20, 8, 1.5, False,100])
+	addMonster("araignee","../img/araignee.png","cave", [50, 20, 8, 1.5, False,100])
+	addMonster("araignee","../img/araignee.png","cave", [50, 20, 8, 1.5, False,100])
+	addMonster("araignee","../img/araignee.png","cave", [50, 20, 8, 1.5, False,100])		
+
+	addUser("Iv","123",r)
+	addUser("V","VVV",r)
+	addUser("Atrus","gp",r)

@@ -1,0 +1,10 @@
+v0.1
+
+objectif : vendredi 7/08/2009
+
+- Systeme de combat simple basé sur des stats classiques
+- Panneaux et PNJs donnant des infos
+- Donjon qui tienne 10 minutes
+- Systeme de chat
+- Systeme d'actions/attaques à base de "cubes" de capacité
+- Inventaire transformé en trois composantes : cubes, karma (krasses ? en hommage au DK2 system...) et rations 
