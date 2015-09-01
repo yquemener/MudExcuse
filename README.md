@@ -21,6 +21,8 @@ Status
 ======
 I considered it originally as a proof of concept for me to test how easily I could make a basic graphical MUD in python. The architecture is therefore a bit poor but it is working. I don't really have plans to continue it, but maybe some days when I don't really feel motivation to work on my regular projects, I'll try to improve this one.
 
+![Screenshot](https://i.imgur.com/u2T6jF8.png)
+
 License
 =======
 I used graphical items from various sources, it is mentionned in img/COPYRIGHT
