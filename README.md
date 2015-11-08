@@ -1,3 +1,6 @@
+DO NOT USE THIS CODE! 
+I made it as a quick and dirty proof of concept that I was able to implement the core set of functionnalities for an online game in a couple of days. But the code is unsecure and very inefficient. Actually it allows for remote code execution on the server. Do not run it through internet! On the plus side it will also limit the attacker's possibilities as it eats all the CPU cycles it can get its hands on (for no particularily good reason)
+
 MudExcuse
 =========
 Every old family has a skeleton in a closet. Every programmer has an abandonned MORPG in his archives. It is hard to admit but I have several. This one is a simple one but it does have a complete small set of functionalities. For several bad reasons, some things, even inside the source, are written in French. I hate people who do that, I'll try to translate most of it. 
