@@ -3,7 +3,7 @@ I made it as a quick and dirty proof of concept that I was able to implement the
 
 MudExcuse
 =========
-Every old family has a skeleton in a closet. Every programmer has an abandonned MORPG in his archives. It is hard to admit but I have several. This one is a simple one but it does have a complete small set of functionalities. For several bad reasons, some things, even inside the source, are written in French. I hate people who do that, I'll try to translate most of it. 
+Every old family has a skeleton in a closet. Every programmer has an abandoned MORPG in his archives. It is hard to admit but I have several. This one is a simple one but it does have a complete small set of functionalities. For several bad reasons, some things, even inside the source, are written in French. I hate people who do that, I'll try to translate most of it. 
 
 Basic idea
 ==========
